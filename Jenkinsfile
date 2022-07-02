@@ -5,7 +5,7 @@ pipeline {
 
        IMAGE_NAME = "alpinehelloworld"
        IMAGE_TAG = "latest"
-//       PORT_EXPOSED = "80" à paraméter dans le job
+       PORT_EXPOSED = "8080" 
        STAGING = "${ID_DOCKER}-staging"
        PRODUCTION = "${ID_DOCKER}-production"
      }
