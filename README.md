@@ -3,4 +3,7 @@ AMN CI/CD
 # alpinehelloworld
 An Alpine-based Docker example
 Projet automatisation pipeline CICD
-avec syncronisation GITHUB
+avec syncronisation GITHUB via WEBHOOK
+Afin de faciliter l'exposition une adresse publique via NGROK est mise en oeuvre
+Un tunnel est ainsi cree entre la VM JENKINS qui a une adresse privee et les servers
+de NGROK
