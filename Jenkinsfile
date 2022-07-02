@@ -5,7 +5,7 @@ pipeline {
 
        IMAGE_NAME = "alpinehelloworld"
        IMAGE_TAG = "latest"
-       PORT_EXPOSED = "8080" 
+  //     PORT_EXPOSED = "80" 
        STAGING = "${ID_DOCKER}-staging"
        PRODUCTION = "${ID_DOCKER}-production"
      }
@@ -37,7 +37,7 @@ pipeline {
            steps {
               script {
                 sh '''
-                    curl http://172.17.0.1:${PORT_EXPOSED} | grep -q "Hello world!"
+                    curl http://172.17.0.1:8080 | grep -q "Hello world!"
                 '''
               }
            }
