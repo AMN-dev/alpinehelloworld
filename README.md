@@ -9,3 +9,4 @@ Un tunnel est ainsi cree entre la VM JENKINS qui a une adresse privee et les ser
 de NGROK
 
 [![Build Status](http://192.168.88.10:8080/buildStatus/icon?job=AMN_DEPLOIEMENT)](http://192.168.88.10:8080/job/AMN_DEPLOIEMENT/)
+
